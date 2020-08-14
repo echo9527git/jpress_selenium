@@ -43,7 +43,7 @@ def crop_picture(raw_picture_name,element,save_picture_name):
 
 def get_verification_code_by_pytesseract(driver,selector):
     """
-    通过webdriver和验证码的定位器selector获取验证码
+    使用pytesseract通过webdriver和验证码的定位器selector获取验证码
     :param driver: webdriver对象
     :param selector: 验证码的定位器selector
     :return: 验证码

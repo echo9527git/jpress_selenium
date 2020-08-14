@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b14ff5c4-8c3c-44c8-87cb-cf9f13c3f25f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jpress_selenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpress_selenium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b14ff5c4-8c3c-44c8-87cb-cf9f13c3f25f" name="Default Changelist" comment="1、项目结构搭建&#10;2、工具类">
+      <change beforePath="$PROJECT_DIR$/util/my_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/my_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +127,30 @@
       <option name="presentableId" value="Default" />
       <updated>1596269162331</updated>
     </task>
+    <task id="LOCAL-00001" summary="1、项目结构搭建&#10;2、工具类">
+      <created>1597400061052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597400061052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1、项目结构搭建&#10;2、工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、项目结构搭建&#10;2、工具类" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1597386006557">
@@ -164,5 +185,9 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="141" y="136" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1597390050228" />
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2" timestamp="1597400099962">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1597400099962" />
   </component>
 </project>
