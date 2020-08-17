@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b14ff5c4-8c3c-44c8-87cb-cf9f13c3f25f" name="Default Changelist" comment="1、项目结构搭建&#10;2、工具类">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes" beforeDir="false" afterPath="$PROJECT_DIR$/notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/testcase1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/testcase1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/my_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/my_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,21 +51,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\PycharmProjects\jpress_selenium\lib" />
-      <recent name="C:\Users\Administrator\PycharmProjects\jpress_selenium\util" />
-      <recent name="C:\Users\Administrator\PycharmProjects\jpress_selenium" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\PycharmProjects\jpress_selenium\util" />
       <recent name="C:\Users\Administrator\PycharmProjects\jpress_selenium" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\jpress_selenium\util" />
+      <recent name="C:\Users\Administrator\PycharmProjects\jpress_selenium\lib" />
+      <recent name="C:\Users\Administrator\PycharmProjects\jpress_selenium" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.showapirequest">
+  <component name="RunManager" selected="Python.test_wwwork">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jpress_selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,8 +129,45 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_wwwork" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jpress_selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/test_wwwork.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test01.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="jpress_selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/unittest/test01.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_wwwork" />
+        <item itemvalue="Python tests.Unittests in test01.py" />
         <item itemvalue="Python.showapirequest" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.my_utils" />
@@ -134,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597400061052</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1、项目结构搭建&#10;2、工具类">
+      <created>1597400166225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597400166225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,16 +212,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1、项目结构搭建&#10;2、工具类" />
     <option name="LAST_COMMIT_MESSAGE" value="1、项目结构搭建&#10;2、工具类" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1597386006557">
+    <state x="445" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1597457577242">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1597386006557" />
+    <state x="445" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1597457577242" />
+    <state x="120" y="81" key="DiffContextDialog" timestamp="1597400186943">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="120" y="81" key="DiffContextDialog/0.0.1280.984@0.0.1280.984" timestamp="1597400186943" />
+    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1597480902307">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1597480902307" />
     <state x="493" y="389" width="293" height="297" key="Github.ShareDialog" timestamp="1596534221757">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -165,29 +239,33 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="390" y="197" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1596534256777" />
-    <state width="1242" height="351" key="GridCell.Tab.0.bottom" timestamp="1597396831580">
+    <state width="1259" height="178" key="GridCell.Tab.0.bottom" timestamp="1597486571371">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1242" height="351" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1597396831580" />
-    <state width="1242" height="351" key="GridCell.Tab.0.center" timestamp="1597396831580">
+    <state width="1259" height="178" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1597486571371" />
+    <state width="1259" height="178" key="GridCell.Tab.0.center" timestamp="1597486571371">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1242" height="351" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1597396831580" />
-    <state width="1242" height="351" key="GridCell.Tab.0.left" timestamp="1597396831580">
+    <state width="1259" height="178" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1597486571371" />
+    <state width="1259" height="178" key="GridCell.Tab.0.left" timestamp="1597486571371">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1242" height="351" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1597396831580" />
-    <state width="1242" height="351" key="GridCell.Tab.0.right" timestamp="1597396831580">
+    <state width="1259" height="178" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1597486571371" />
+    <state width="1259" height="178" key="GridCell.Tab.0.right" timestamp="1597486571371">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1242" height="351" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1597396831580" />
+    <state width="1259" height="178" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1597486571371" />
     <state x="141" y="136" key="SettingsEditor" timestamp="1597390050228">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="141" y="136" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1597390050228" />
-    <state x="232" y="225" key="Vcs.Push.Dialog.v2" timestamp="1597400099962">
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2" timestamp="1597400272958">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="225" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1597400099962" />
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1597400272958" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1597457017014">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1597457017014" />
   </component>
 </project>

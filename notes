@@ -1,3 +1,11 @@
+复用已有浏览器：
+1、将Firefox或者是Chrome的安装路径配置到环境变量中；
+2、命令行中指定端口启动浏览器的调试模式-->firefox(chrome) --remote-debugging-port=9222；
+3、连接调试开关打开的浏览器
+options = webdriver.ChromeOptions()
+options.debugger_address = "127.0.0.1:9222"
+self.driver = webdriver.Chrome(options=options)
+
 项目结构：
 ·testcase（包）：测试用例
 ·data（目录）：测试数据
@@ -20,3 +28,47 @@
 二、通过第三方AI库识别验证码
 1、万维易源的API来解决复杂验证码问题：https://www.showapi.com
 
+单元测试框架unittest：
+·五个重要概念：testfixture，testcase，testsuit，testrunner，testloader；
+·Testcase
+    ·一个Testcase的实例就是一个测试用例。什么是测试用例？就是一个完整的测试流程，包括测试前准备环境的搭建(setUp)，执行测试代码(run)，
+    以及测试后环境的还原(tearDown)。单元测试(unittest)的本质也在这里，一个测试用例是一个完整的测试单元，通过运行这个测试单元，可以对
+    某一个问题进行验证。
+    ·class MyTestCase(unittest.TestCase)
+·Testsuit：多个测试用例集合在一起就是一个Testsuit，而且Testsuit也可以嵌套Testsuit。
+    ·suit = unittest.TestSuite()
+·Testrunner：用来执行测试用例，其中的run(test)会执行Testcase/Testsuit中的run(result)方法。
+    ·runner = unittest.TextTestRunner()
+        ·runner.run(suit)
+    ·result = unittest.TextTestResult()
+·Testloader：是用来加载Testcase到Testsuit中的，其中有几个loadTestsFrom_()方法，就是从各个地方寻找TestCase，创建他们的实例，然后
+ add到TestSuit中，再返回一个Testsuit实例。
+    ·loader = unittest.TestLoader()
+·Test Fixture：对一个测试环境的创建和销毁，是一个fixture，通过覆盖TestCase中的setUp()和tearDown()方法来实现。
+·执行：
+    ·if __name__ == '__main__':
+    ·unittest.main()
+
+setUp和tearDown：
+·执行顺序：setUpClass > setUp > testA > tearDown > setup > testB > tearDown > tearDownClass；
+·用例之间按照用例名称ASCII码的顺序加载，数字和字母顺序为：0~9、A~Z、a~z；
+
+加载测试用例的四种方法：
+·实例化
+    ·suit = unittest.TestSuite()
+    ·loader = unittest.TestLoader()
+·方法一：通过测试用例类进行加载(低效)
+    ·suit.addTest(loader.loadTestsFromTestCase(MyTest1))
+    ·suit.addTest(loader.loadTestsFromTestCase(MyTest2))
+·方法二：通过测试用例模块进行加载
+    ·suit.addTest(loader.loadTestsFromModule(mytest1))
+    ·suit.addTest(loader.loadTestsFromModule(mytest2))
+·方法三：通过路径加载(推荐)
+    ·import os
+    ·path = os.path.dirname(os.path.abspath(__file__))
+    ·suit.addTest(loader.discover(path))
+·方法四：逐条加载测试用例(更低效)
+    ·case1 = MyTest1('test1')
+    ·case2 = MyTest1('test2')
+    ·suit.addTest(case1)
+    ·suit.addTest(case2)
