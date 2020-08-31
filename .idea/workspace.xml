@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b14ff5c4-8c3c-44c8-87cb-cf9f13c3f25f" name="Default Changelist" comment="1、项目结构搭建&#10;2、工具类">
+    <list default="true" id="b14ff5c4-8c3c-44c8-87cb-cf9f13c3f25f" name="Default Changelist" comment="1、浏览器复用&#10;2、工具类增加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes" beforeDir="false" afterPath="$PROJECT_DIR$/notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/testcase1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/testcase1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/my_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/my_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597400166225</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1、浏览器复用&#10;2、工具类增加">
+      <created>1597646004261</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597646004261</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +220,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1、项目结构搭建&#10;2、工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、项目结构搭建&#10;2、工具类" />
+    <MESSAGE value="1、浏览器复用&#10;2、工具类增加" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、浏览器复用&#10;2、工具类增加" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1597457577242">
@@ -227,10 +232,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="120" y="81" key="DiffContextDialog/0.0.1280.984@0.0.1280.984" timestamp="1597400186943" />
-    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1597480902307">
+    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1597646098482">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1597480902307" />
+    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1597646098482" />
     <state x="493" y="389" width="293" height="297" key="Github.ShareDialog" timestamp="1596534221757">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -259,10 +264,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="141" y="136" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1597390050228" />
-    <state x="232" y="225" key="Vcs.Push.Dialog.v2" timestamp="1597400272958">
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2" timestamp="1597646093049">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="225" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1597400272958" />
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1597646093049" />
     <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1597457017014">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

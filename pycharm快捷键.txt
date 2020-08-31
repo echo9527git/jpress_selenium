@@ -1,0 +1,20 @@
+Ctrl + Alt + Space  快速导入任意类
+Ctrl + Alt + L     代码格式化
+Ctrl + Alt + O    格式化导入
+Shift + Enter    另起一行
+Ctrl + D  复制选定的区域或行
+Ctrl + Y  快速删除一行
+ctrl + x 快速删除一行
+Ctrl + Shift +上/下  上下移动选中区域
+后退 ctrl+alt+←
+前进 ctrl+alt+→
+
+PyCharm快捷键——搜索/替换快捷键
+搜索/替换快捷键
+序号 快捷键 作用
+1 CTRL + F 查找
+2 F3 查找下一个
+3 SHIFT + F3 查找上一个
+4 CTRL + R 替换
+5 CTRL + SHIFT + F 指定路径下“查找”
+6 CTRL + SHIFT + R 指定路径下“替换”
